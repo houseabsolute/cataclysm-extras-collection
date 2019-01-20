@@ -3,13 +3,12 @@
 This is a collection of mods, soundpacks, and tilesets for [Cataclysm: Dark
 Days Ahead](https://github.com/CleverRaven/Cataclysm-DDA/) (CDDA). These game
 extensions are scattered across the internet, often in very inconvenient
-places (like MediaFire and Meta), which makes using them harder than it needs
+places (like MediaFire and Mega), which makes using them harder than it needs
 to be.
 
 I've collected a selection of these extensions in this repo to make it easy to
-provide them in an automated fashion for use with my
-[catalauncher](https://github.com/houseabsolute/catalauncher) command line
-launcher for CDDA.
+provide them in an automated fashion for use with my [catalauncher command
+line launcher for CDDA](https://github.com/houseabsolute/catalauncher) .
 
 If you are the author of one of these extensions and have any issues or
 questions about this [please let me know](mailto:autarch@urth.org). If you'd
