@@ -38,12 +38,6 @@ Changes and rebalances mutations.
 
 *No explicit license.*
 
-### [Removes Nether Creatures by TheMightyHercules](https://discourse.cataclysmdda.org/t/removes-nether-creatures-mod-wip/10307)
-
-Remove all nether creatures (blob, flaming eye, etc.)
-
-*No explicit license.*
-
 ## Soundpacks
 
 This repo includes the following soundpacks:
