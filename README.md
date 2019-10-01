@@ -48,3 +48,10 @@ See [the Credits file for this
 soundpack](https://github.com/houseabsolute/cataclysm-extras-collection/blob/master/soundpacks/RRFSounds/data/sound/RRFSounds/Credits)
 for licensing info.
 
+## Tilesets
+
+This repo includes the following tilesets:
+
+### [MSX++_Dead_People](https://github.com/chaosvolt/Cata-MSX-DeadPeopleTileset-Backup)
+
+*No explicit license.*
