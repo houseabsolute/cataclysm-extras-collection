@@ -43,7 +43,12 @@
 		  "tr_microlab_shifting_hall_2",
 		  "vp_cart_handle",
 		  "fd_fright",
-		  "metabolism"
+		  "metabolism",
+		  "nothing",
+		  "fd_clairvoyant",
+		  "acid_res_aura",
+		  "acid_res_aura_greater"
+		  
 		  
 		  ],
           "fg": 0,
@@ -56415,7 +56420,7 @@
           "rotates": false
         },
         {
-          "id": "sugar",
+          "id": ["sugar", "chem_potassium_alum"],
           "fg": 1352,
           "bg": 957,
           "rotates": false
@@ -71800,6 +71805,7 @@
         {
           "id": "f_flower_marloss",
           "fg": 1515,
+		  "bg": 967,
           "rotates": false
         },
         {
@@ -93404,7 +93410,12 @@
               "id": "edge"
             },
             {
-              "fg": 5234,
+              "fg": [
+            { "weight":300, "sprite":5234},
+			{ "weight":300, "sprite":5268},
+			{ "weight":300, "sprite":5269},
+			{ "weight":300, "sprite":5270}
+            ],
 			  "bg": 5226,
               "id": "center"
             },
@@ -105927,7 +105938,124 @@
             }
 			],
 			"rotates": true
-            }		
+            }	,
+			        {
+          "id": ["t_railroad_track_small", "t_railroad_track_small_d"],
+          "fg": 20084,
+		  "bg": 5131,
+		  "multitile": true,
+          "additional_tiles": [ 
+            {
+              "id": "center",
+              "fg": 20084,
+			  "bg": 5131
+            },		  
+           {
+              "id": "corner",
+              "fg": [20085, 20086, 20087, 20088],
+			  "bg": 5131
+            },
+            {
+              "id": "t_connection",
+              "fg": [20089, 20090, 20091, 20092],
+			  "bg": 5131
+            },
+            {
+              "id": "edge",
+              "fg": [20093, 20094],
+			  "bg": 5131
+            },
+            {
+              "id": "end_piece",
+              "fg": [20095, 20096, 20097, 20098],
+			  "bg": 5131
+            },
+            {
+              "id": "unconnected",
+              "fg": 20099,
+			  "bg": 5131
+            }
+			],
+			"rotates": true
+            }	,
+			        {
+          "id": ["t_dirtmound_season_winter"],
+          "fg": 20100,
+		  "bg": 5131,
+		  "multitile": true,
+          "additional_tiles": [ 
+            {
+              "id": "center",
+              "fg": 20100,
+			  "bg": 5131
+            },		  
+           {
+              "id": "corner",
+              "fg": [20101, 20102, 20103, 20104],
+			  "bg": 5131
+            },
+            {
+              "id": "t_connection",
+              "fg": [20105, 20106, 20107, 20108],
+			  "bg": 5131
+            },
+            {
+              "id": "edge",
+              "fg": [20109, 20110],
+			  "bg": 5131
+            },
+            {
+              "id": "end_piece",
+              "fg": [20111, 20112, 20113, 20114],
+			  "bg": 5131
+            },
+            {
+              "id": "unconnected",
+              "fg": 20115,
+			  "bg": 5131
+            }
+			],
+			"rotates": true
+            }	,
+			        {
+          "id": ["t_clay_season_winter"],
+          "fg": 20116,
+		  "bg": 5131,
+		  "multitile": true,
+          "additional_tiles": [ 
+            {
+              "id": "center",
+              "fg": 20116,
+			  "bg": 5131
+            },		  
+           {
+              "id": "corner",
+              "fg": [20117, 20118, 20119, 20120],
+			  "bg": 5131
+            },
+            {
+              "id": "t_connection",
+              "fg": [20121, 20122, 20123, 20124],
+			  "bg": 5131
+            },
+            {
+              "id": "edge",
+              "fg": [20125, 20126],
+			  "bg": 5131
+            },
+            {
+              "id": "end_piece",
+              "fg": [20127, 20128, 20129, 20130],
+			  "bg": 5131
+            },
+            {
+              "id": "unconnected",
+              "fg": 20131,
+			  "bg": 5131
+            }
+			],
+			"rotates": true
+            }	
 			
   ]
   },
@@ -106328,7 +106456,16 @@
 		{ "id": "overlay_wielded_makeshift_scythe_war",				"fg": 22351, "rotates": false },
 		{ "id": "overlay_wielded_lucern_hammer",				"fg": 22352, "rotates": false },
 		{ "id": "overlay_wielded_lucern_hammerfake",				"fg": 22352, "rotates": false },
-		{ "id": "overlay_wielded_ds_line_gun",				"fg": 22353, "rotates": false }	
+		{ "id": "overlay_wielded_ds_line_gun",				"fg": 22353, "rotates": false },
+		{ "id": "overlay_wielded_fencing_epee",				"fg": 22354, "rotates": false },
+		{ "id": "overlay_wielded_fencing_foil",				"fg": 22354, "rotates": false },
+		{ "id": "overlay_wielded_fencing_sabre",				"fg": 22354, "rotates": false },
+		{ "id": "overlay_wielded_fencing_epee_sharpened",				"fg": 22355, "rotates": false },
+		{ "id": "overlay_wielded_fencing_foil_sharpened",				"fg": 22355, "rotates": false },
+		{ "id": "overlay_wielded_fencing_sabre_sharpened",				"fg": 22355, "rotates": false },
+		{ "id": "overlay_wielded_shock_epee",				"fg": 22356, "rotates": false },
+		{ "id": "overlay_wielded_shock_foil",				"fg": 22356, "rotates": false },
+		{ "id": "overlay_wielded_shock_sabre",				"fg": 22356, "rotates": false }			
 	]
 	},
 	{
@@ -115133,13 +115270,13 @@
 		{
           "id": "f_flower_tulip",
           "fg": 22374,
-          "bg": 0,
+          "bg": 967,
           "rotates": false
         },
 		{
           "id": "f_flower_spurge",
           "fg": 22375,
-          "bg": 0,
+          "bg": 967,
           "rotates": false
         },		
 		{
@@ -135566,7 +135703,7 @@
           "rotates": false
         },
 		{
-          "id": [ "overlay_wielded_hp_pellet" ],
+          "id": [ "hp_pellet" ],
           "fg": 26020,
           "rotates": false
         },
@@ -135760,7 +135897,7 @@
           ]
         },
 						{
-          "id": "vp_afs_metal_rig",
+          "id": ["vp_afs_metal_rig", "afs_metal_rig"],
           "fg": 26054,
           "rotates": true,
           "multitile": true,
@@ -135865,9 +136002,1087 @@
           "fg": 26071,
           "rotates": false
         },
+								{
+          "id": [ "mon_stirge" ],
+          "fg": 26072,
+          "rotates": false
+        },
+										{
+          "id": [ "corpse_mon_stirge" ],
+          "fg": 26073,
+          "rotates": false
+        },
+										{
+          "id": [ "mon_shrieker" ],
+          "fg": 26074,
+		  "bg": 967,
+          "rotates": false
+        },
+										{
+          "id": [ "corpse_mon_shrieker" ],
+          "fg": 26075,
+          "rotates": false
+        },
+												{
+          "id": [ "mon_lemure" ],
+          "fg": 26076,
+		  "bg": 967,
+          "rotates": false
+        },
+														{
+          "id": [ "corpse_mon_lemure" ],
+          "fg": 26077,
+          "rotates": false
+        },
+																{
+          "id": [ "icon" ],
+          "fg": 26078,
+          "rotates": false
+        },
+																		{
+          "id": [ "lard" ],
+          "fg": 26079,
+          "rotates": false
+        },
+																				{
+          "id": [ "mutant_fat" ],
+          "fg": 26080,
+          "rotates": false
+        },
+																						{
+          "id": [ "mutant_lard" ],
+          "fg": 26081,
+          "rotates": false
+        },
+		{
+          "id": [ "mutant_meat" ],
+          "fg": 26082,
+          "rotates": false
+        },		{
+          "id": [ "mutant_meat_cooked" ],
+          "fg": 26083,
+          "rotates": false
+        },
+				{
+          "id": [ "mutant_meat_scrap" ],
+          "fg": 26084,
+          "rotates": false
+        },		{
+          "id": [ "mutant_meat_scrap_cooked" ],
+          "fg": 26085,
+          "rotates": false
+        },
+		{
+          "id": [ "mutant_tallow" ],
+          "fg": 26086,
+          "rotates": false
+        },
+				{
+          "id": [ "gunblade" ],
+          "fg": 26087,
+          "rotates": false
+        },
+						{
+          "id": [ "overlay_wielded_gunblade" ],
+          "fg": 26088,
+          "rotates": false
+        },
+						{
+          "id": [ "heat_cube" ],
+          "fg": 26089,
+          "rotates": false
+        },
+						{
+          "id": [ "heat_cube_torch_on" ],
+          "fg": 26090,
+          "rotates": false
+        },
+								{
+          "id": [ "buckle_steel" ],
+          "fg": 26091,
+          "rotates": false
+        },
+										{
+          "id": [ "button_plastic" ],
+          "fg": 26092,
+          "rotates": false
+        },
+												{
+          "id": [ "button_wood" ],
+          "fg": 26093,
+          "rotates": false
+        },
+														{
+          "id": [ "button_steel" ],
+          "fg": 26094,
+          "rotates": false
+        },
+																{
+          "id": [ "infrared_creature" ],
+          "fg": 26095,
+          "rotates": false
+        },
+																		{
+          "id": [ "dye_powder" ],
+          "fg": 26096,
+          "rotates": false
+        },
+																				{
+          "id": [ "fencing_foil" ],
+          "fg": 26097,
+          "rotates": false
+        },
+																						{
+          "id": [ "fencing_foil_sharpened" ],
+          "fg": 26098,
+          "rotates": false
+        },
+																						{
+          "id": [ "fencing_epee_sharpened" ],
+          "fg": 26099,
+          "rotates": false
+        },
+																						{
+          "id": [ "fencing_sabre_sharpened" ],
+          "fg": 26100,
+          "rotates": false
+        },																						{
+          "id": [ "gauntlet_fencing" ],
+          "fg": 26101,
+          "rotates": false
+        },
+		{
+          "id": [ "gauntlet_fencing_l" ],
+          "fg": 26102,
+          "rotates": false
+        },			
+		{
+          "id": [ "overlay_wielded_gauntlet_fencing" ],
+          "fg": 26103,
+          "rotates": false
+        },
+		{
+          "id": [ "overlay_wielded_gauntlet_fencing_l" ],
+          "fg": 26104,
+          "rotates": false
+        },
+				{
+          "id": [ "lame_foil" ],
+          "fg": 26105,
+          "rotates": false
+        },
+		{
+          "id": [ "overlay_worn_lame_foil" ],
+          "fg": 26106,
+          "rotates": false
+        },
+						{
+          "id": [ "lame_saber" ],
+          "fg": 26107,
+          "rotates": false
+        },
+		{
+          "id": [ "overlay_worn_lame_saber" ],
+          "fg": 26108,
+          "rotates": false
+        },
+								{
+          "id": [ "shock_foil" ],
+          "fg": 26109,
+          "rotates": false
+        },
+		{
+          "id": [ "shock_epee" ],
+          "fg": 26110,
+          "rotates": false
+        },
+				{
+          "id": [ "shock_sabre" ],
+          "fg": 26111,
+          "rotates": false
+        },
+						{
+          "id": [ "loom_frame", "overlay_wielded_loom_frame"],
+          "fg": 26112,
+          "rotates": false
+        },
+								{
+          "id": [ "plastron_cotton"],
+          "fg": 26113,
+          "rotates": false
+        },
+										{
+          "id": [ "overlay_female_worn_plastron_cotton"],
+          "fg": 26114,
+          "rotates": false
+        },
+												{
+          "id": [ "overlay_male_worn_plastron_cotton"],
+          "fg": 26115,
+          "rotates": false
+        },
+										{
+          "id": [ "plastron_plastic"],
+          "fg": 26116,
+          "rotates": false
+        },
+										{
+          "id": [ "overlay_female_worn_plastron_plastic"],
+          "fg": 26117,
+          "rotates": false
+        },
+												{
+          "id": [ "overlay_male_worn_plastron_plastic"],
+          "fg": 26118,
+          "rotates": false
+        },
+														{
+          "id": [ "scrap_faux_fur"],
+          "fg": 26119,
+          "rotates": false
+        },
+																{
+          "id": [ "scrap_felt"],
+          "fg": 26120,
+          "rotates": false
+        },
+																		{
+          "id": [ "scrap_fur"],
+          "fg": 26121,
+          "rotates": false
+        },
+																				{
+          "id": [ "scrap_kevlar"],
+          "fg": 26122,
+          "rotates": false
+        },
+																						{
+          "id": [ "scrap_leather"],
+          "fg": 26123,
+          "rotates": false
+        },
+																								{
+          "id": [ "scrap_lycra"],
+          "fg": 26124,
+          "rotates": false
+        },
+																										{
+          "id": [ "scrap_neoprene"],
+          "fg": 26125,
+          "rotates": false
+        },
+																												{
+          "id": [ "scrap_nomex"],
+          "fg": 26126,
+          "rotates": false
+        },
+																														{
+          "id": [ "scrap_nylon"],
+          "fg": 26127,
+          "rotates": false
+        },																												{
+          "id": [ "shed_stick"],
+          "fg": 26128,
+          "rotates": false
+        },
+																														{
+          "id": [ "overlay_wielded_shed_stick"],
+          "fg": 26129,
+          "rotates": false
+        },
+{
+          "id": [ "sheet_cotton"],
+          "fg": 26130,
+          "rotates": false
+        },
+		{
+          "id": [ "sheet_cotton_patchwork"],
+          "fg": 26131,
+          "rotates": false
+        },{
+          "id": [ "sheet_faux_fur"],
+          "fg": 26132,
+          "rotates": false
+        },{
+          "id": [ "sheet_faux_fur_patchwork"],
+          "fg": 26133,
+          "rotates": false
+        },{
+          "id": [ "sheet_felt"],
+          "fg": 26134,
+          "rotates": false
+        },{
+          "id": [ "sheet_felt_patchwork"],
+          "fg": 26135,
+          "rotates": false
+        },{
+          "id": [ "sheet_kevlar"],
+          "fg": 26136,
+          "rotates": false
+        },{
+          "id": [ "sheet_lycra"],
+          "fg": 26137,
+          "rotates": false
+        },{
+          "id": [ "sheet_lycra_patchwork"],
+          "fg": 26138,
+          "rotates": false
+        },{
+          "id": [ "sheet_neoprene"],
+          "fg": 26139,
+          "rotates": false
+        },{
+          "id": [ "sheet_neoprene_patchwork"],
+          "fg": 26140,
+          "rotates": false
+        },{
+          "id": [ "sheet_nomex"],
+          "fg": 26141,
+          "rotates": false
+        },{
+          "id": [ "sheet_nomex_patchwork"],
+          "fg": 26142,
+          "rotates": false
+        },{
+          "id": [ "sheet_nylon"],
+          "fg": 26143,
+          "rotates": false
+        },
+		{
+          "id": [ "snapfastener_steel"],
+          "fg": 26144,
+          "rotates": false
+        },
+				{
+          "id": [ "touch_fastener"],
+          "fg": 26145,
+          "rotates": false
+        },
+						{
+          "id": [ "sole_rubber"],
+          "fg": 26146,
+          "rotates": false
+        },
+								{
+          "id": [ "tailoring_pattern_set"],
+          "fg": 26147,
+          "rotates": false
+        },
+								{
+          "id": [ "thread_kevlar"],
+          "fg": 26148,
+          "rotates": false
+        },
+								{
+          "id": [ "thread_nomex"],
+          "fg": 26149,
+          "rotates": false
+        },	
+		{
+          "id": [ "zipper_long_plastic"],
+          "fg": 26150,
+          "rotates": false
+        },
+								{
+          "id": [ "zipper_short_plastic"],
+          "fg": 26151,
+          "rotates": false
+        },
+		{
+          "id": [ "human_fat"],
+          "fg": 26152,
+          "rotates": false
+        },
+		{
+          "id": [ "human_lard"],
+          "fg": 26153,
+          "rotates": false
+        },
+		{
+          "id": [ "human_tallow"],
+          "fg": 26154,
+          "rotates": false
+        },
+				{
+          "id": [ "chainmail_feet"],
+          "fg": 26155,
+          "rotates": false
+        },
+						{
+          "id": [ "overlay_worn_chainmail_feet"],
+          "fg": 26156,
+          "rotates": false
+        },
+						{
+          "id": [ "chainmail_hands"],
+          "fg": 26157,
+          "rotates": false
+        },
+						{
+          "id": [ "overlay_worn_chainmail_hands"],
+          "fg": 26158,
+          "rotates": false
+        },
+								{
+          "id": [ "chainmail_suit_faraday"],
+          "fg": 26159,
+          "rotates": false
+        },
+						{
+          "id": [ "overlay_worn_chainmail_suit_faraday"],
+          "fg": 26160,
+          "rotates": false
+        },
+								{
+          "id": [ "zombie_revival_indicator"],
+          "fg": 26161,
+          "rotates": false
+        },
+										{
+          "id": [ "mutant_human_flesh"],
+          "fg": 26162,
+          "rotates": false
+        },
+												{
+          "id": [ "mutant_human_cooked"],
+          "fg": 26163,
+          "rotates": false
+        },		
+		{
+          "id": [ "mutant_human_fat"],
+          "fg": 26164,
+          "rotates": false
+        },
+												{
+          "id": [ "mutant_human_lard"],
+          "fg": 26165,
+          "rotates": false
+        },
+														{
+          "id": [ "mutant_human_tallow"],
+          "fg": 26166,
+          "rotates": false
+        },
+														{
+          "id": [ "gloves_survivor_fingerless"],
+          "fg": 26167,
+          "rotates": false
+        },
+														{
+          "id": [ "overlay_worn_gloves_survivor_fingerless"],
+          "fg": 26168,
+          "rotates": false
+        },
+																{
+          "id": [ "railroad_track_small"],
+          "fg": 26169,
+          "rotates": false
+        },
+																		{
+          "id": [ "drinking_hat"],
+          "fg": 26170,
+          "rotates": false
+        },
+																				{
+          "id": [ "wearable_atomic_light_off"],
+          "fg": 26171,
+          "rotates": false
+        },
+																						{
+          "id": [ "wearable_atomic_light"],
+          "fg": 26172,
+          "rotates": false
+        },
+																						{
+          "id": [ "overlay_worn_wearable_atomic_light_off"],
+          "fg": 26173,
+          "rotates": false
+        },
+																						{
+          "id": [ "overlay_worn_wearable_atomic_light"],
+          "fg": 26174,
+          "rotates": false
+        },
+																								{
+          "id": [ "m47a1"],
+          "fg": 26175,
+          "rotates": false
+        },
+																						{
+          "id": [ "overlay_wielded_m47a1"],
+          "fg": 26176,
+          "rotates": false
+        },
+																										{
+          "id": [ "boxer_briefs"],
+          "fg": 26177,
+          "rotates": false
+        },
+																						{
+          "id": [ "overlay_worn_boxer_briefs"],
+          "fg": 26179,
+          "rotates": false
+        },
+			{
+          "id": [ "boxer_shorts"],
+          "fg": 26178,
+          "rotates": false
+        },
+																						{
+          "id": [ "overlay_worn_boxer_shorts"],
+          "fg": 26180,
+          "rotates": false
+        },
+										{
+          "id": [ "f_logstool"],
+          "fg": 26181,
+          "rotates": false
+        },	
+		{
+          "id": [ "wheel_rail_small_pair"],
+          "fg": 26182,
+          "rotates": false
+        },
+																{
+          "id": "vp_rail_wheel_small_pair",
+          "fg": 26183,
+          "rotates": true,
+          "multitile": true,
+          "additional_tiles": [
+            {
+              "id": "broken",
+              "fg": 26184
+            }
+          ]
+        },
+				{
+          "id": [ "arrow_odin"],
+          "fg": 26185,
+          "rotates": false
+        },
+						{
+          "id": [ "book_mythological"],
+          "fg": 26186,
+          "rotates": false
+        },
+						{
+          "id": [ "gram"],
+          "fg": 26187,
+          "rotates": false
+        },
+						{
+          "id": [ "overlay_wielded_gram"],
+          "fg": 26188,
+          "rotates": false
+        },
+								{
+          "id": [ "gungnir"],
+          "fg": 26189,
+          "rotates": false
+        },
+								{
+          "id": [ "ichaival"],
+          "fg": 26190,
+          "rotates": false
+        },
+						{
+          "id": [ "overlay_wielded_ichaival"],
+          "fg": 26191,
+          "rotates": false
+        },
+										{
+          "id": [ "laevateinn"],
+          "fg": 26192,
+          "rotates": false
+        },
+						{
+          "id": [ "overlay_wielded_laevateinn"],
+          "fg": 26193,
+          "rotates": false
+        },
+								{
+          "id": [ "fried_spam"],
+          "fg": 26194,
+          "rotates": false
+        },
+										{
+          "id": [ "debug_nutrition"],
+          "fg": 26195,
+          "rotates": false
+        },
+														{
+          "id": [ "magi_staff_minor"],
+          "fg": 26196,
+          "rotates": false
+        },
+																{
+          "id": [ "overlay_wielded_magi_staff_minor"],
+          "fg": 26197,
+          "rotates": false
+        },
+																		{
+          "id": [ "magic_suppressor"],
+          "fg": 26198,
+          "rotates": false
+        },
+																						{
+          "id": [ "mana_dot_sight"],
+          "fg": 26199,
+          "rotates": false
+        },	
+																				{
+          "id": [ "mana_laser_rail"],
+          "fg": 26100,
+          "rotates": false
+        },	
+		{
+          "id": [ "mana_laser_under"],
+          "fg": 26101,
+          "rotates": false
+        },
+				{
+          "id": [ "mbelt_leather"],
+          "fg": 26202,
+          "rotates": false
+        },
+						{
+          "id": [ "overlay_worn_mbelt_leather"],
+          "fg": 26203,
+          "rotates": false
+        },
+						{
+          "id": [ "mbelt_haste"],
+          "fg": 26204,
+          "rotates": false
+        },
+						{
+          "id": [ "overlay_worn_mbelt_haste"],
+          "fg": 26205,
+          "rotates": false
+        },
+								{
+          "id": [ "mbelt_iron_whip"],
+          "fg": 26206,
+          "rotates": false
+        },
+						{
+          "id": [ "overlay_worn_mbelt_iron_whip"],
+          "fg": 26207, 
+          "rotates": false
+        },
+										{
+          "id": [ "mwhip_iron"],
+          "fg": 26208,
+          "rotates": false
+        },
+						{
+          "id": [ "overlay_wielded_mwhip_iron"],
+          "fg": 26209, 
+          "rotates": false
+        },
+								{
+          "id": [ "sheet_nylon_patchwork"],
+          "fg": 26210, 
+          "rotates": false
+        },	
+		{
+          "id": [ "staff_sling"],
+          "fg": 26211, 
+          "rotates": false
+        },
+				{
+          "id": [ "overlay_wielded_staff_sling"],
+          "fg": 26212, 
+          "rotates": false
+        },
+				{
+          "id": [ "mon_ant_antifungal"],
+          "fg": 26213,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_ant_antifungal"],
+          "fg": 26214, 
+          "rotates": false
+        },
+						{
+          "id": [ "mon_ant_antifungal_larva"],
+          "fg": 26215,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_ant_antifungal_larva"],
+          "fg": 26216, 
+          "rotates": false
+        },
+		{
+          "id": [ "mon_ant_antifungal_soldier"],
+          "fg": 26217,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_ant_antifungal_soldier"],
+          "fg": 26218, 
+          "rotates": false
+        },		
+		{
+          "id": [ "mon_ant_antifungal_queen"],
+          "fg": 26219,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_ant_antifungal_queen"],
+          "fg": 26220, 
+          "rotates": false
+        },
+				{
+          "id": [ "mon_giant_mantis"],
+          "fg": 26221,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_giant_mantis"],
+          "fg": 26222, 
+          "rotates": false
+        },
+						{
+          "id": [ "mon_giant_mantis_nymph"],
+          "fg": 26223,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_giant_mantis_nymph"],
+          "fg": 26224, 
+          "rotates": false
+        },
+								{
+          "id": [ "mon_radscorpion"],
+          "fg": 26225,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_radscorpion"],
+          "fg": 26226, 
+          "rotates": false
+        },
+										{
+          "id": [ "mon_radscorpion_small"],
+          "fg": 26227,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_radscorpion_small"],
+          "fg": 26228, 
+          "rotates": false
+        },
+		
+												{
+          "id": [ "mon_fish_horseshoe"],
+          "fg": 26229,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_fish_horseshoe"],
+          "fg": 26230, 
+          "rotates": false
+        },
+														{
+          "id": [ "mon_mirelurk_baby"],
+          "fg": 26231,
+		  "bg": 0,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_mirelurk_baby"],
+          "fg": 26232, 
+          "rotates": false
+        },
+																{
+          "id": [ "mon_mirelurk_softshell"],
+          "fg": 26233,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_mirelurk_softshell"],
+          "fg": 26234, 
+          "rotates": false
+        },
+																		{
+          "id": [ "mon_mirelurk"],
+          "fg": 26235,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_mirelurk"],
+          "fg": 26236, 
+          "rotates": false
+        },	
+		{
+          "id": [ "mon_cave_rat"],
+          "fg": 26237,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_cave_rat"],
+          "fg": 26238, 
+          "rotates": false
+        },
+				{
+          "id": [ "mon_rat_piglet"],
+          "fg": 26239,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_rat_piglet"],
+          "fg": 26240, 
+          "rotates": false
+        },
+						{
+          "id": [ "mon_rat_pig"],
+          "fg": 26241,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_rat_pig"],
+          "fg": 26242, 
+          "rotates": false
+        },
+								{
+          "id": [ "mon_rat_mole_young"],
+          "fg": 26243,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_rat_mole_young"],
+          "fg": 26244, 
+          "rotates": false
+        },
+										{
+          "id": [ "mon_rat_mole_lesser"],
+          "fg": 26245,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_rat_mole_lesser"],
+          "fg": 26246, 
+          "rotates": false
+        },
+		{
+          "id": [ "mon_gecko_young"],
+          "fg": 26247,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_gecko_young"],
+          "fg": 26248, 
+          "rotates": false
+        },
+				{
+          "id": [ "mon_gecko"],
+          "fg": 26249,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_gecko"],
+          "fg": 26250, 
+          "rotates": false
+        },
+						{
+          "id": [ "mon_gecko_gold_young"],
+          "fg": 26251,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_gecko_gold_young"],
+          "fg": 26252, 
+          "rotates": false
+        },
+								{
+          "id": [ "mon_gecko_gold"],
+          "fg": 26253,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_gecko_gold"],
+          "fg": 26254, 
+          "rotates": false
+        },
+										{
+          "id": [ "mon_deathclaw_young"],
+          "fg": 26255,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_deathclaw_young"],
+          "fg": 26256, 
+          "rotates": false
+        },										{
+          "id": [ "mon_deathclaw_albino_young"],
+          "fg": 26257,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_deathclaw_albino_young"],
+          "fg": 26258, 
+          "rotates": false
+        },										{
+          "id": [ "mon_deathclaw_glowing_young"],
+          "fg": 26259,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "corpse_mon_deathclaw_glowing_young"],
+          "fg": 26260, 
+          "rotates": false
+        },
+												{
+          "id": [ "mon_protectron"],
+          "fg": 26261,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "broken_protectron"],
+          "fg": 26262, 
+          "rotates": false
+        },
+						{
+          "id": [ "bot_protectron_inactive"],
+          "fg": 26263, 
+          "rotates": false
+        },			
+		{
+          "id": [ "mon_protectron_construction"],
+          "fg": 26264,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "broken_protectron_construction"],
+          "fg": 26265, 
+          "rotates": false
+        },
+						{
+          "id": [ "bot_protectron_construction_inactive"],
+          "fg": 26266, 
+          "rotates": false
+        },
+				{
+          "id": [ "mon_protectron_fire"],
+          "fg": 26267,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "broken_protectron_fire"],
+          "fg": 26268, 
+          "rotates": false
+        },
+						{
+          "id": [ "bot_protectron_fire_inactive"],
+          "fg": 26269, 
+          "rotates": false
+        },				{
+          "id": [ "mon_protectron_wattz"],
+          "fg": 26270,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "broken_protectron_wattz"],
+          "fg": 26271, 
+          "rotates": false
+        },
+						{
+          "id": [ "bot_protectron_wattz_inactive"],
+          "fg": 26272, 
+          "rotates": false
+        },	
+						{
+          "id": [ "mon_protectron_takahashi"],
+          "fg": 26273,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "broken_protectron_takahashi"],
+          "fg": 26274, 
+          "rotates": false
+        },
+						{
+          "id": [ "bot_protectron_takahashi_inactive"],
+          "fg": 26275, 
+          "rotates": false
+        },	
+		{
+          "id": [ "mon_protectron_subway"],
+          "fg": 26276,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "broken_protectron_subway"],
+          "fg": 26277, 
+          "rotates": false
+        },
+						{
+          "id": [ "bot_protectron_subway_inactive"],
+          "fg": 26278, 
+          "rotates": false
+        },			
+		{
+          "id": [ "mon_protectron_fisto"],
+          "fg": 26279,
+		  "bg": 967,
+          "rotates": false
+        },
+				{
+          "id": [ "broken_protectron_fisto"],
+          "fg": 26280, 
+          "rotates": false
+        },
+						{
+          "id": [ "bot_protectron_fisto_inactive"],
+          "fg": 26281, 
+          "rotates": false
+        },
+								{
+          "id": [ "overlay_wielded_tac_helmet", "overlay_wielded_tac_fullhelmet"],
+          "fg": 26282, 
+          "rotates": false
+        },
+		{
+          "id": [ "corpse_mon_zombie_razor"],
+          "fg": 26283, 
+          "rotates": false
+        },
+		
 		{
           "id": "atlatl", "note": "before that i add all new items to the tileset! !!!NEW-ITEMS-HERE!!",  
-          "fg": 1986, 
+          "fg": 1986,  
 		  "bg": 0, 
 		  "rotates": false 
         },      
@@ -137314,6 +138529,30 @@
           "fg": 33004,
 		  "bg": 32978,
           "rotates": false
+        },		
+		{
+          "id": ["f_glow_boulder_season_spring"], 
+          "fg": 33005,
+		  "bg": 0,
+          "rotates": false
+        },			
+		{
+          "id": ["f_glow_boulder_season_summer", "f_glow_boulder"], 
+          "fg": 33006,
+		  "bg": 0,
+          "rotates": false
+        },			
+		{
+          "id": "f_glow_boulder_season_autumn", 
+          "fg": 33007,
+		  "bg": 0,
+          "rotates": false
+        },			
+		{
+          "id": "f_glow_boulder_season_winter", 
+          "fg": 33008,
+		  "bg": 0,
+          "rotates": false
         }
 	]
 	},	
@@ -137366,7 +138605,7 @@
           "rotates": false
         },
         {
-          "id": ["overlay_worn_bowhat", "overlay_worn_porkpie", "overlay_worn_tophat"],
+          "id": ["overlay_worn_tophat"],
           "fg": 33176,
           "rotates": false
         },
@@ -138332,9 +139571,107 @@
           "fg": 35936,
           "bg": 0,
           "rotates": false
+        },
+		{
+          "id": "t_utility_pole",
+          "fg": 35937,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "overlay_wielded_gungnir",
+          "fg": 35938,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "mon_mirelurk_queen",
+          "fg": 35939,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_mirelurk_queen",
+          "fg": 35940,
+          "bg": 0,
+          "rotates": false
+        }
+		,
+		{
+          "id": "mon_deathclaw",
+          "fg": 35941,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_deathclaw",
+          "fg": 35942,
+          "bg": 0,
+          "rotates": false
+        }		,
+		{
+          "id": "mon_deathclaw_albino",
+          "fg": 35943,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_deathclaw_albino",
+          "fg": 35944,
+          "bg": 0,
+          "rotates": false
+        }
+		,
+		{
+          "id": "mon_deathclaw_glowing",
+          "fg": 35945,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_deathclaw_glowing",
+          "fg": 35946,
+          "bg": 0,
+          "rotates": false
+        }
+				,
+		{
+          "id": "mon_deathclaw_mother",
+          "fg": 35947,
+          "rotates": false
+        },
+		{
+          "id": "corpse_mon_deathclaw_mother",
+          "fg": 35948,
+          "bg": 0,
+          "rotates": false
+        }
+		,
+		{
+          "id": "mon_turrer_speaker",
+          "fg": 35949,
+          "bg": 0,
+          "rotates": false
+        }
+				,
+		{
+          "id": "mon_zombie_nightwail",
+          "fg": 35950,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "mon_zombie_razor",
+          "fg": 35951,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": "large_lcd_screen",
+          "fg": 35952,
+          "bg": 0,
+          "rotates": false
         }
 	    
     ] 
-    }
+    } 
   ]
 }
