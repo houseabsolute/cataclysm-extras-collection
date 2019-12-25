@@ -61,7 +61,8 @@
 		  "butter_churn",
 		  "f_region_water_plant",
 		  "t_region_groundcover_forest",
-		  "t_region_groundcover_swamp"
+		  "t_region_groundcover_swamp",
+		  "lizardfolk_javelin_gun"
 		  
 		  
 		  
@@ -11880,7 +11881,7 @@
           "rotates": false
         },
         {
-          "id": "overlay_wielded_creepy_doll",
+          "id": "overlay_wielded_talking_doll",
           "fg": 3491,
           "bg": 957,
           "rotates": false
@@ -41160,7 +41161,7 @@
           "fg": 3779
         },
         {
-          "id": "overlay_wielded_talking_doll",
+          "id": "!overlay_wielded_talking_doll",
           "fg": 3780,
           "rotates": false
         },
@@ -46882,13 +46883,13 @@
           "rotates": false
         },
         {
-          "id": "40mm_flechette",
+          "id": ["40mm_flechette", "40x46mm_flechette_m118", "40x46mm_flechette_m199", "40x53mm_flechette_m169"],
           "fg": 41,
           "bg": 957,
           "rotates": false
         },
         {
-          "id": "40mm_frag",
+          "id": ["40mm_frag", "40x53mm_slug_m169", "40x46mm_slug_m199", "40x46mm_slug_m118"],
           "fg": 42,
           "bg": 957,
           "rotates": false
@@ -46900,7 +46901,7 @@
           "rotates": false
         },
         {
-          "id": "40mm_shot",
+          "id": ["40mm_shot", "40x46mm_buckshot_m199", "40x46mm_buckshot_m118", "40x53mm_buckshot_m169", "40x46mm_m1006"],
           "fg": 44,
           "bg": 957,
           "rotates": false
@@ -46912,7 +46913,7 @@
           "rotates": false
         },
         {
-          "id": "40mm_teargas",
+          "id": ["40mm_teargas", "40x46mm_m1006", "40x46mm_m433", "40x46mm_m576", "40x46mm_m651", "40x53mm_m1001", "40x53mm_m430a1"],
           "fg": 46,
           "bg": 957,
           "rotates": false
@@ -58351,7 +58352,7 @@
           "rotates": false
         },
         {
-          "id": "creepy_doll",
+          "id": "talking_doll",
           "fg": 3491,
           "bg": 957,
           "rotates": false
@@ -70403,7 +70404,7 @@
           "fg": 1296
         },
         {
-          "id": ["pizza_meat", "gfpizza_meat"], 
+          "id": ["pizza_meat", "gfpizza_meat", "pizza_supreme"], 
           "fg": 1297,
           "rotates": false
         },
@@ -71857,19 +71858,40 @@
         },
         {
           "id": "f_grave_head",
-          "fg": 1520
+          "fg": [
+            { "weight":1, "sprite":1520},
+            { "weight":1, "sprite":27770},
+            { "weight":1, "sprite":27771},
+            { "weight":1, "sprite":27772}
+            ]
         },
         {
           "id": "f_grave_monument",
-          "fg": 1521
+          "fg": [
+            { "weight":1, "sprite":1521},
+            { "weight":1, "sprite":27767},
+            { "weight":1, "sprite":27768},
+            { "weight":1, "sprite":27769}
+            ]
         },
         {
           "id": "f_grave_stone",
-          "fg": 1522
+          "fg": [
+            { "weight":1, "sprite":1522},
+            { "weight":1, "sprite":27760},
+            { "weight":1, "sprite":27761},
+            { "weight":1, "sprite":27762},
+            { "weight":1, "sprite":27763}
+            ]
         },
         {
           "id": "f_grave_stone_old",
-          "fg": 1523
+          "fg": [
+            { "weight":1, "sprite":1523},
+            { "weight":1, "sprite":27764},
+            { "weight":1, "sprite":27765},
+            { "weight":1, "sprite":27766}
+            ]
         },
         {
           "id": "f_gunsafe_mj",
@@ -72147,7 +72169,10 @@
         },
         {
           "id": "f_sink",
-          "fg": 1575,
+          "fg": [
+            { "weight":25, "sprite":1575},
+            { "weight":1, "sprite":26396}
+            ],
           "rotates": false
         },
         {
@@ -72263,7 +72288,13 @@
         },
         {
           "id": "f_toilet",
-          "fg": 1594,
+          "fg": [
+            { "weight":10, "sprite":1594},
+            { "weight":1, "sprite":26397},
+			{ "weight":1, "sprite":26398},            
+			{ "weight":1, "sprite":26399},            
+			{ "weight":1, "sprite":26400}],
+		  
           "rotates": false
         },
         {
@@ -78347,8 +78378,8 @@
 		{
           "id": "f_target",
 		  "fg": [
-            { "weight":1, "sprite":4954},
-            { "weight":1, "sprite":4955}
+            { "weight":11, "sprite":4954},
+            { "weight":11, "sprite":4955}
             ],
 		  "bg": 967,
           "rotates": false
@@ -87733,7 +87764,7 @@
           "fg": 3779
         },
         {
-          "id": "talking_doll",
+          "id": "!talking_doll",
           "fg": 3780,
           "rotates": false
         },
@@ -99406,7 +99437,12 @@
             },
             {
               "id": "unconnected",
-              "fg": 17571
+              "fg": [
+			{ "weight":30, "sprite":17571},
+            { "weight":30, "sprite":27757},
+            { "weight":30, "sprite":27758},
+            { "weight":30, "sprite":27759}
+			]
             }
 			],
 			"rotates": false
@@ -101557,7 +101593,7 @@
 			"rotates": false
 			},
 			{
-          "id": "t_water_moving_sh",
+          "id": "!t_water_moving_sh",
           "fg": 18404,
 		  "multitile": true,
           "additional_tiles": [
@@ -101595,7 +101631,7 @@
 			"rotates": false
 			},
 			{
-          "id": "t_water_moving_dp",
+          "id": "!t_water_moving_dp",
           "fg": 18420,
 		  "multitile": true,
           "additional_tiles": [
@@ -101632,7 +101668,7 @@
 			],
 			"rotates": false
 			},			{
-          "id": "t_water_moving_sh_underground",
+          "id": "!t_water_moving_sh_underground",
           "fg": 18404,
 		  "multitile": true,
           "additional_tiles": [
@@ -101670,7 +101706,7 @@
 			"rotates": false
 			},
 			{
-          "id": "t_water_moving_dp_underground",
+          "id": "!t_water_moving_dp_underground",
           "fg": 18420,
 		  "multitile": true,
           "additional_tiles": [
@@ -101708,7 +101744,7 @@
 			"rotates": false
 			},
 			{
-          "id": "t_water_moving_sh_season_winter",
+          "id": "!t_water_moving_sh_season_winter",
           "fg": 18404,
 		  "multitile": true,
           "additional_tiles": [
@@ -101746,7 +101782,7 @@
 			"rotates": false
 			},
 			{
-          "id": "t_water_moving_dp_season_winter",
+          "id": "!t_water_moving_dp_season_winter",
           "fg": 18420,
 		  "multitile": true,
           "additional_tiles": [
@@ -106394,6 +106430,84 @@
               "id": "unconnected",
               "fg": 20259,
 			  "bg": 0
+            }
+			],
+			"rotates": true
+            },
+			        {
+          "id": ["t_drystone_wall"],
+          "fg": 20260,
+		  "bg": 4844,
+		  "multitile": true,
+          "additional_tiles": [ 
+            {
+              "id": "center",
+              "fg": 20260,
+			  "bg": 4844
+            },		  
+           {
+              "id": "corner",
+              "fg": [20261, 20262, 20263, 20264],
+			  "bg": 4844
+            },
+            {
+              "id": "t_connection",
+              "fg": [20265, 20266, 20267, 20268],
+			  "bg": 4844
+            },
+            {
+              "id": "edge",
+              "fg": [20269, 20270],
+			  "bg": 4844
+            },
+            {
+              "id": "end_piece",
+              "fg": [20271, 20272, 20273, 20274],
+			  "bg": 4844
+            },
+            {
+              "id": "unconnected",
+              "fg": 20275,
+			  "bg": 4844
+            }
+			],
+			"rotates": true
+            }	,
+			        {
+          "id": ["t_drystone_wall_half"],
+          "fg": 20276,
+		  "bg": 4844,
+		  "multitile": true,
+          "additional_tiles": [ 
+            {
+              "id": "center",
+              "fg": 20276,
+			  "bg": 4844
+            },		  
+           {
+              "id": "corner",
+              "fg": [20277, 20278, 20279, 20280],
+			  "bg": 4844
+            },
+            {
+              "id": "t_connection",
+              "fg": [20281, 20282, 20283, 20284],
+			  "bg": 4844
+            },
+            {
+              "id": "edge",
+              "fg": [20285, 20286],
+			  "bg": 4844
+            },
+            {
+              "id": "end_piece",
+              "fg": [20287, 20288, 20289, 20290],
+			  "bg": 4844
+            },
+            {
+              "id": "unconnected",
+              "fg": 20291,
+			  "bg": 4844
             }
 			],
 			"rotates": true
@@ -123733,7 +123847,9 @@
         },
 												{
           "id": "f_air_filter",
-          "fg": 23875,
+          "fg": [
+            { "weight":1, "sprite":23875}
+            ],
           "rotates": false
         },	
 		{
@@ -131638,7 +131754,7 @@
           "rotates": false
         },
 						{
-          "id": ["boots_black_dragon_scale"],
+          "id": ["boots_black_dragon_scale", "boots_xlblack_dragon_scale"],
           "fg": 25242,
 		  "bg": 0,
           "rotates": false
@@ -131650,7 +131766,7 @@
           "rotates": false
         },
 		{
-          "id": ["boots_black_dragon_hide"],
+          "id": ["boots_black_dragon_hide", "boots_xlblack_dragon_hide"],
           "fg": 25244,
 		  "bg": 0,
           "rotates": false
@@ -131673,7 +131789,7 @@
           "rotates": false
         },
 		{
-          "id": ["gauntlets_black_dragon_scale"],
+          "id": ["gauntlets_black_dragon_scale", "gauntlets_xlblack_dragon_scale"],
           "fg": 25248,
 		  "bg": 0,
           "rotates": false
@@ -131684,7 +131800,7 @@
 		  "bg": 0,
           "rotates": false
         },		{
-          "id": ["gloves_black_dragon_hide"],
+          "id": ["gloves_black_dragon_hide", "gloves_xlblack_dragon_hide"],
           "fg": 25250,
 		  "bg": 0,
           "rotates": false
@@ -131696,7 +131812,7 @@
           "rotates": false
         },
 		{
-          "id": ["helmet_black_dragon_hide"],
+          "id": ["helmet_black_dragon_hide", "helmet_xlblack_dragon_hide"],
           "fg": 25252,
 		  "bg": 0,
           "rotates": false
@@ -131708,7 +131824,7 @@
           "rotates": false
         },	
 				{
-          "id": ["helmet_black_dragon_scale"],
+          "id": ["helmet_black_dragon_scale", "helmet_xlblack_dragon_scale"],
           "fg": 25254,
 		  "bg": 0,
           "rotates": false
@@ -137749,11 +137865,912 @@
           "id": "atomic_butterchurn",
           "fg": 26362,
           "rotates": false
+        },{
+          "id": "balloon",
+          "fg": 26363,
+          "rotates": false
         },
 		{
-          "id": "atlatl", "note": "before that i add all new items to the tileset! !!!NEW-ITEMS-HERE!! ",  
-          "fg": 1986,  
-		  "bg": 0, 
+          "id": "makeshift_stethoscope",
+          "fg": 26364,
+          "rotates": false
+        },		{
+          "id": "t_gas_tank_smashed",
+          "fg": 26365,
+          "bg": 985,
+          "rotates": false
+        },{
+          "id": "f_clothing_rail",
+          "fg": 26366,
+          "rotates": false
+        },
+		{
+          "id": ["40x46mm_m118_casing", "40x46mm_m195_casing", "40x46mm_m199_casing", "40x46mm_m212_casing", "40x53mm_m169_casing"],
+          "fg": 26367,
+          "rotates": false
+        },		{
+          "id": ["clothes_hanger"],
+          "fg": 26368,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_clothes_hanger"],
+          "fg": 26369,
+          "rotates": false
+        },{
+          "id": ["pen"],
+          "fg": 26370,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_pen"],
+          "fg": 26371,
+          "rotates": false
+        },{
+          "id": ["stapler"],
+          "fg": 26372,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_stapler"],
+          "fg": 26373,
+          "rotates": false
+        },{
+          "id": ["base_toiletries"],
+          "fg": 26374,
+          "rotates": false
+        },{
+          "id": ["base_toiletries"],
+          "fg": 26374,
+          "rotates": false
+        },{
+          "id": ["soap_holder"],
+          "fg": 26375,
+          "rotates": false
+        },{
+          "id": ["razor_shaving"],
+          "fg": 26376,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_razor_shaving"],
+          "fg": 26377,
+          "rotates": false
+        },{
+          "id": ["toothbrush_plain"],
+          "fg": 26378,
+          "rotates": false
+        },
+		{
+          "id": ["overlay_wielded_toothbrush_plain"],
+          "fg": 26379,
+          "rotates": false
+        },{
+          "id": ["hairbrush"],
+          "fg": 26380,
+          "rotates": false
+        },
+		{
+          "id": ["overlay_wielded_hairbrush"],
+          "fg": 26381,
+          "rotates": false
+        },		{
+          "id": ["curler_hair"],
+          "fg": 26382,
+          "rotates": false
+        },{
+          "id": ["string_floss"],
+          "fg": 26383,
+          "rotates": false
+        },{
+          "id": ["comb_pocket"],
+          "fg": 26384,
+          "rotates": false
+        },{
+          "id": ["plunger_toilet"],
+          "fg": 26385,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_plunger_toilet"],
+          "fg": 26386,
+          "rotates": false
+        },{
+          "id": ["plunger_futuristic"],
+          "fg": 26387,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_plunger_futuristic"],
+          "fg": 26388,
+          "rotates": false
+        },{
+          "id": ["toilet_paper"],
+          "fg": 26389,
+          "rotates": false
+        },{
+          "id": ["hair_dryer"],
+          "fg": 26390,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_hair_dryer"],
+          "fg": 26391,
+          "rotates": false
+        },{
+          "id": ["curling_iron"],
+          "fg": 26392,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_curling_iron"],
+          "fg": 26393,
+          "rotates": false
+        },{
+          "id": ["brush_toilet"],
+          "fg": 26394,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_brush_toilet"],
+          "fg": 26395,
+          "rotates": false
+        },{
+          "id": ["mon_crocodile"],
+          "fg": 26401,
+          "rotates": false
+        },{
+          "id": ["corpse_mon_crocodile"],
+          "fg": 26402,
+          "rotates": false
+        },{
+          "id": ["lizardfolk_club"],
+          "fg": 26403,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_lizardfolk_club"],
+          "fg": 26404,
+          "rotates": false
+        },{
+          "id": ["lizardfolk_trident"],
+          "fg": 26405,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_lizardfolk_trident"],
+          "fg": 26406,
+          "rotates": false
+        },{
+          "id": ["javelin"],
+          "fg": 26407,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_javelin"],
+          "fg": 26408,
+          "rotates": false
+        },{
+          "id": ["javelin_iron"],
+          "fg": 26409,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_javelin_iron"],
+          "fg": 26410,
+          "rotates": false
+        },{
+          "id": ["lizardfolk_javelin"],
+          "fg": 26411,
+          "rotates": false
+        },{
+          "id": ["overlay_wielded_lizardfolk_javelin"],
+          "fg": 26412,
+          "rotates": false
+        },{
+          "id": ["mbelt_pockets_lesser"],
+          "fg": 26413,
+          "rotates": false
+        },{
+          "id": ["overlay_worn_mbelt_pockets_lesser"],
+          "fg": 26414,
+          "rotates": false
+        },
+		{
+          "id": ["mbelt_pockets_greater"],
+          "fg": 26415,
+          "rotates": false
+        },{
+          "id": ["overlay_worn_mbelt_pockets_greater"],
+          "fg": 26416,
+          "rotates": false
+        },		{
+          "id": ["mbelt_technomancer_toolbelt"],
+          "fg": 26417,
+          "rotates": false
+        },{
+          "id": ["overlay_worn_mbelt_technomancer_toolbelt"],
+          "fg": 26418,
+          "rotates": false
+        },{
+          "id": ["mbelt_thor"],
+          "fg": 26419,
+          "rotates": false
+        },{
+          "id": ["overlay_worn_mbelt_thor"],
+          "fg": 26420,
+          "rotates": false
+        },{
+          "id": ["mbelt_weaponry"],
+          "fg": 26421,
+          "rotates": false
+        },{
+          "id": ["overlay_worn_mbelt_weaponry"],
+          "fg": 26422,
+          "rotates": false
+        },{
+          "id": ["mboots_escape"],
+          "fg": 26423,
+          "rotates": false
+        },{
+          "id": ["overlay_worn_mboots_escape"],
+          "fg": 26424,
+          "rotates": false
+        },{
+          "id": ["mboots_grounding"],
+          "fg": 26425,
+          "rotates": false
+        },{
+          "id": ["overlay_worn_mboots_grounding"],
+          "fg": 26426,
+          "rotates": false
+        },{
+          "id": ["mboots_haste"],
+          "fg": 26427,
+          "rotates": false
+        },{
+          "id": ["overlay_worn_mboots_haste"],
+          "fg": 26428,
+          "rotates": false
+        },{
+          "id": ["mboots_sevenleague"],
+          "fg": 26429,
+          "rotates": false
+        },{
+          "id": ["overlay_worn_mboots_sevenleague"],
+          "fg": 26430,
+          "rotates": false
+        },{
+          "id": ["mbracer_steel_pair"],
+          "fg": 26431,
+          "rotates": false
+        },{
+          "id": ["overlay_worn_mbracer_steel_pair"],
+          "fg": 26432,
+          "rotates": false
+        },{
+          "id": ["mbracer_steel_single"],
+          "fg": 26433,
+          "rotates": false
+        },{
+          "id": ["overlay_worn_mbracer_steel_single"],
+          "fg": 26434,
+          "rotates": false
+        },{
+          "id": ["mbracer_defense_lesser"],
+          "fg": 26435,
+          "rotates": false
+        },{
+          "id": ["overlay_worn_mbracer_defense_lesser"],
+          "fg": 26436,
+          "rotates": false
+        },{
+          "id": ["mbracer_defense_greater"],
+          "fg": 26437,
+          "rotates": false
+        },{
+          "id": ["overlay_worn_mbracer_defense_greater"],
+          "fg": 26438,
+          "rotates": false
+        },
+		{
+          "id": ["alexandrite"],
+          "fg": 26439,
+          "rotates": false
+        },		
+		{
+          "id": ["alexandrite_dental_grill"],
+          "fg": 26440,
+          "rotates": false
+        },		{
+          "id": ["overlay_worn_alexandrite_dental_grill"],
+          "fg": 26441,
+          "rotates": false
+        },		{
+          "id": ["alexandrite_gold_earring"],
+          "fg": 26442,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_alexandrite_gold_earring"],
+          "fg": 26443,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_alexandrite_gold_earring"],
+          "fg": 26444,
+          "rotates": false
+        },{
+          "id": ["alexandrite_platinum_earring"],
+          "fg": 26445,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_alexandrite_platinum_earring"],
+          "fg": 26446,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_alexandrite_platinum_earring"],
+          "fg": 26447,
+          "rotates": false
+        },{
+          "id": ["alexandrite_silver_earring"],
+          "fg": 26448,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_alexandrite_silver_earring"],
+          "fg": 26449,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_alexandrite_silver_earring"],
+          "fg": 26450,
+          "rotates": false
+        },		{
+          "id": ["amethyst"],
+          "fg": 26451,
+          "rotates": false
+        },		
+		{
+          "id": ["amethyst_dental_grill"],
+          "fg": 26452,
+          "rotates": false
+        },		{
+          "id": ["overlay_worn_amethyst_dental_grill"],
+          "fg": 26453,
+          "rotates": false
+        },		{
+          "id": ["amethyst_gold_earring"],
+          "fg": 26454,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_amethyst_gold_earring"],
+          "fg": 26455,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_amethyst_gold_earring"],
+          "fg": 26456,
+          "rotates": false
+        },{
+          "id": ["amethyst_platinum_earring"],
+          "fg": 26457,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_amethyst_platinum_earring"],
+          "fg": 26458,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_amethyst_platinum_earring"],
+          "fg": 26459,
+          "rotates": false
+        },{
+          "id": ["amethyst_silver_earring"],
+          "fg": 26460,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_amethyst_silver_earring"],
+          "fg": 26461,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_amethyst_silver_earring"],
+          "fg": 26462,
+          "rotates": false
+        },{
+          "id": ["aquamarine", "blue_topaz"],
+          "fg": 26463,
+          "rotates": false
+        },		
+		{
+          "id": ["aquamarine_dental_grill", "blue_topaz_dental_grill"],
+          "fg": 26464,
+          "rotates": false
+        },		{
+          "id": ["overlay_worn_aquamarine_dental_grill", "overlay_worn_blue_topaz_dental_grill"],
+          "fg": 26465,
+          "rotates": false
+        },		{
+          "id": ["aquamarine_gold_earring", "blue_topaz_gold_earring"],
+          "fg": 26466,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_aquamarine_gold_earring", "overlay_male_worn_blue_topaz_gold_earring"],
+          "fg": 26467,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_aquamarine_gold_earring", "overlay_female_worn_blue_topaz_gold_earring"],
+          "fg": 26468,
+          "rotates": false
+        },{
+          "id": ["aquamarine_platinum_earring", "blue_topaz_platinum_earring"],
+          "fg": 26469,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_aquamarine_platinum_earring", "overlay_male_worn_blue_topaz_platinum_earring"],
+          "fg": 26470,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_aquamarine_platinum_earring", "overlay_female_worn_blue_topaz_platinum_earring"],
+          "fg": 26471,
+          "rotates": false
+        },{
+          "id": ["aquamarine_silver_earring", "blue_topaz_silver_earring"],
+          "fg": 26472,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_aquamarine_silver_earring", "overlay_male_worn_blue_topaz_silver_earring"],
+          "fg": 26473,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_aquamarine_silver_earring", "overlay_female_worn_blue_topaz_silver_earring"],
+          "fg": 26474,
+          "rotates": false
+        },		{
+          "id": ["citrine"],
+          "fg": 26475,
+          "rotates": false
+        },		
+		{
+          "id": ["citrine_dental_grill"],
+          "fg": 26476,
+          "rotates": false
+        },		{
+          "id": ["overlay_worn_citrine_dental_grill"],
+          "fg": 26477,
+          "rotates": false
+        },		{
+          "id": ["citrine_gold_earring"],
+          "fg": 26478,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_citrine_gold_earring"],
+          "fg": 26479,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_citrine_gold_earring"],
+          "fg": 26480,
+          "rotates": false
+        },{
+          "id": ["citrine_platinum_earring"],
+          "fg": 26481,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_citrine_platinum_earring"],
+          "fg": 26482,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_citrine_platinum_earring"],
+          "fg": 26483,
+          "rotates": false
+        },{
+          "id": ["citrine_silver_earring"],
+          "fg": 26484,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_citrine_silver_earring"],
+          "fg": 26485,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_citrine_silver_earring"],
+          "fg": 26486,
+          "rotates": false
+        },{
+          "id": ["diamond_gold_earring"],
+          "fg": 26487,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_diamond_gold_earring"],
+          "fg": 26488,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_diamond_gold_earring"],
+          "fg": 26489,
+          "rotates": false
+        },{
+          "id": ["diamond_platinum_earring"],
+          "fg": 26490,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_diamond_platinum_earring"],
+          "fg": 26491,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_diamond_platinum_earring"],
+          "fg": 26492,
+          "rotates": false
+        },{
+          "id": ["diamond_silver_earring"],
+          "fg": 26493,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_diamond_silver_earring"],
+          "fg": 26494,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_diamond_silver_earring"],
+          "fg": 26495,
+          "rotates": false
+        },{
+          "id": ["emerald"],
+          "fg": 26496,
+          "rotates": false
+        },		
+		{
+          "id": ["emerald_dental_grill"],
+          "fg": 26497,
+          "rotates": false
+        },		{
+          "id": ["overlay_worn_emerald_dental_grill"],
+          "fg": 26498,
+          "rotates": false
+        },		{
+          "id": ["emerald_gold_earring"],
+          "fg": 26499,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_emerald_gold_earring"],
+          "fg": 26500,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_emerald_gold_earring"],
+          "fg": 26501,
+          "rotates": false
+        },{
+          "id": ["emerald_platinum_earring"],
+          "fg": 26502,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_emerald_platinum_earring"],
+          "fg": 26503,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_emerald_platinum_earring"],
+          "fg": 26504,
+          "rotates": false
+        },{
+          "id": ["emerald_silver_earring"],
+          "fg": 26505,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_emerald_silver_earring"],
+          "fg": 26506,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_emerald_silver_earring"],
+          "fg": 26507,
+          "rotates": false
+        },{
+          "id": ["garnet", "ruby"],
+          "fg": 26508,
+          "rotates": false
+        },		
+		{
+          "id": ["garnet_dental_grill", "ruby_dental_grill"],
+          "fg": 26509,
+          "rotates": false
+        },		{
+          "id": ["overlay_worn_garnet_dental_grill", "overlay_worn_ruby_dental_grill"],
+          "fg": 26510,
+          "rotates": false
+        },		{
+          "id": ["garnet_gold_earring", "ruby_gold_earring"],
+          "fg": 26511,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_garnet_gold_earring", "overlay_male_worn_ruby_gold_earring"],
+          "fg": 26512,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_garnet_gold_earring", "overlay_female_worn_ruby_gold_earring"],
+          "fg": 26513,
+          "rotates": false
+        },{
+          "id": ["garnet_platinum_earring", "ruby_platinum_earring"],
+          "fg": 26514,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_garnet_platinum_earring", "overlay_male_worn_ruby_platinum_earring"],
+          "fg": 26515,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_garnet_platinum_earring", "overlay_female_worn_ruby_platinum_earring"],
+          "fg": 26516,
+          "rotates": false
+        },{
+          "id": ["garnet_silver_earring", "ruby_silver_earring"],
+          "fg": 26517,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_garnet_silver_earring", "overlay_male_worn_ruby_silver_earring"],
+          "fg": 26518,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_garnet_silver_earring", "overlay_female_worn_ruby_silver_earring"],
+          "fg": 26519,
+          "rotates": false
+        },{
+          "id": ["opal"],
+          "fg": 26520,
+          "rotates": false
+        },{
+          "id": ["opal_gold_earring"],
+          "fg": 26521,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_opal_gold_earring"],
+          "fg": 26522,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_opal_gold_earring"],
+          "fg": 26523,
+          "rotates": false
+        },{
+          "id": ["opal_platinum_earring"],
+          "fg": 26524,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_opal_platinum_earring"],
+          "fg": 26525,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_opal_platinum_earring"],
+          "fg": 26526,
+          "rotates": false
+        },{
+          "id": ["opal_silver_earring"],
+          "fg": 26527,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_opal_silver_earring"],
+          "fg": 26528,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_opal_silver_earring"],
+          "fg": 26529,
+          "rotates": false
+        },{
+          "id": ["pearl"],
+          "fg": 26530,
+          "rotates": false
+        },{
+          "id": ["pearl_gold_earring"],
+          "fg": 26531,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_pearl_gold_earring"],
+          "fg": 26532,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_pearl_gold_earring"],
+          "fg": 26533,
+          "rotates": false
+        },{
+          "id": ["pearl_platinum_earring"],
+          "fg": 26534,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_pearl_platinum_earring"],
+          "fg": 26535,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_pearl_platinum_earring"],
+          "fg": 26536,
+          "rotates": false
+        },{
+          "id": ["pearl_silver_earring"],
+          "fg": 26537,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_pearl_silver_earring"],
+          "fg": 26538,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_pearl_silver_earring"],
+          "fg": 26539,
+          "rotates": false
+        },{
+          "id": ["peridot"],
+          "fg": 26540,
+          "rotates": false
+        },		
+		{
+          "id": ["peridot_dental_grill"],
+          "fg": 26541,
+          "rotates": false
+        },		{
+          "id": ["overlay_worn_peridot_dental_grill"],
+          "fg": 26542,
+          "rotates": false
+        },		{
+          "id": ["peridot_gold_earring"],
+          "fg": 26543,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_peridot_gold_earring"],
+          "fg": 26544,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_peridot_gold_earring"],
+          "fg": 26545,
+          "rotates": false
+        },{
+          "id": ["peridot_platinum_earring"],
+          "fg": 26546,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_peridot_platinum_earring"],
+          "fg": 26547,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_peridot_platinum_earring"],
+          "fg": 26548,
+          "rotates": false
+        },{
+          "id": ["peridot_silver_earring"],
+          "fg": 26549,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_peridot_silver_earring"],
+          "fg": 26550,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_peridot_silver_earring"],
+          "fg": 26551,
+          "rotates": false
+        },{
+          "id": ["sapphire"],
+          "fg": 26552,
+          "rotates": false
+        },		
+		{
+          "id": ["sapphire_dental_grill"],
+          "fg": 26553,
+          "rotates": false
+        },		{
+          "id": ["overlay_worn_sapphire_dental_grill"],
+          "fg": 26554,
+          "rotates": false
+        },		{
+          "id": ["sapphire_gold_earring"],
+          "fg": 26555,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_sapphire_gold_earring"],
+          "fg": 26556,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_sapphire_gold_earring"],
+          "fg": 26557,
+          "rotates": false
+        },{
+          "id": ["sapphire_platinum_earring"],
+          "fg": 26558,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_sapphire_platinum_earring"],
+          "fg": 26559,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_sapphire_platinum_earring"],
+          "fg": 26560,
+          "rotates": false
+        },{
+          "id": ["sapphire_silver_earring"],
+          "fg": 26561,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_sapphire_silver_earring"],
+          "fg": 26562,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_sapphire_silver_earring"],
+          "fg": 26563,
+          "rotates": false
+        },{
+          "id": ["tourmaline"],
+          "fg": 26564,
+          "rotates": false
+        },		
+		{
+          "id": ["tourmaline_dental_grill"],
+          "fg": 26565,
+          "rotates": false
+        },		{
+          "id": ["overlay_worn_tourmaline_dental_grill"],
+          "fg": 26566,
+          "rotates": false
+        },		{
+          "id": ["tourmaline_gold_earring"],
+          "fg": 26567,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_tourmaline_gold_earring"],
+          "fg": 26568,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_tourmaline_gold_earring"],
+          "fg": 26569,
+          "rotates": false
+        },{
+          "id": ["tourmaline_platinum_earring"],
+          "fg": 26570,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_tourmaline_platinum_earring"],
+          "fg": 26571,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_tourmaline_platinum_earring"],
+          "fg": 26572,
+          "rotates": false
+        },{
+          "id": ["tourmaline_silver_earring"],
+          "fg": 26573,
+          "rotates": false
+        },		{
+          "id": ["overlay_male_worn_tourmaline_silver_earring"],
+          "fg": 26574,
+          "rotates": false
+        },{
+          "id": ["overlay_female_worn_tourmaline_silver_earring"],
+          "fg": 26575,
+          "rotates": false
+        },{
+          "id": ["light_manipulation_spellbook"],
+          "fg": 26576,
+          "rotates": false
+        },{
+          "id": ["mbracer_lightning_lesser"],
+          "fg": 26577,
+          "rotates": false
+        },{
+          "id": ["overlay_worn_mbracer_lightning_lesser"],
+          "fg": 26578,
+          "rotates": false
+        },{
+          "id": ["mbracer_lightning_greater"],
+          "fg": 26579,
+          "rotates": false
+        },{
+          "id": ["overlay_worn_mbracer_lightning_greater"],
+          "fg": 26580,
+          "rotates": false
+        },
+		{
+          "id": ["overlay_wielded_creepy_doll"],
+          "fg": 26581,
+          "rotates": false
+        },
+				{
+          "id": ["teddy_bear"],
+          "fg": 26582,
+          "rotates": false
+        },{
+          "id": ["mon_turret_riot"],
+          "fg": 26583,
+		  "bg": 967,
+          "rotates": true
+        },{
+          "id": ["broken_turret_riot"],
+          "fg": 26584,
+		  "bg": 967,
+          "rotates": true
+        },{
+          "id": ["bot_turret_riot"],
+          "fg": 26585,
+		  "bg": 967,
+          "rotates": true
+        },{
+          "id": ["40x46mm_sponge"],
+          "fg": 26586,
+          "rotates": false
+        },
+		{
+          "id": "atlatl", "note": "before that i add all new items to the tileset! !!!NEW-ITEMS-HERE!! ",
+		  "fg": 1986,  
+		  "bg": 0,
 		  "rotates": false 
         },      
 
@@ -140323,13 +141340,13 @@
         }
 				,
 		{
-          "id": "mon_zombie_nightwail",
+          "id": "mon_zombie_static",
           "fg": 35950,
           "bg": 0,
           "rotates": false
         },
 		{
-          "id": "mon_zombie_razor",
+          "id": "corpse_mon_zombie_static",
           "fg": 35951,
           "bg": 0,
           "rotates": false
@@ -140337,6 +141354,64 @@
 		{
           "id": ["large_lcd_screen", "television"],
           "fg": 35952,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["overlay_effect_zapped"],
+          "fg": 35953,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["mon_lizardfolk_warrior"],
+          "fg": 35954,
+          "bg": 0,
+          "rotates": false
+        },	
+		{
+          "id": ["corpse_mon_lizardfolk_warrior"],
+          "fg": 35955,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["mon_lizardfolk_hunter"],
+          "fg": 35956,
+          "bg": 0,
+          "rotates": false
+        },		{
+          "id": ["corpse_mon_lizardfolk_hunter"],
+          "fg": 35957,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["mon_lizardfolk_shaman"],
+          "fg": 35958,
+          "bg": 0,
+          "rotates": false
+        },		{
+          "id": ["corpse_mon_lizardfolk_shaman"],
+          "fg": 35959,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["mon_lizardfolk_chieftan"],
+          "fg": 35960,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["corpse_mon_lizardfolk_chieftan"],
+          "fg": 35961,
+          "bg": 0,
+          "rotates": false
+        },
+		{
+          "id": ["creepy_doll"],
+          "fg": 35962,
           "bg": 0,
           "rotates": false
         }
