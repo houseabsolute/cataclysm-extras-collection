@@ -22,22 +22,6 @@ License](http://creativecommons.org/licenses/by-sa/3.0/).
 If there's a mod you'd like added please create a PR or [file an
 issue](https://github.com/houseabsolute/cataclysm-extras-collection/issues).
 
-## Mods
-
-This repo includes the following mods:
-
-### [Cataclysm++ by Noctifer de Mortem](https://github.com/Noctifer-de-Mortem/nocts_cata_mod)
-
-"The unofficial expansion mod for Cataclysm: Dark Days Ahead."
-
-*No explicit license.*
-
-### [Mutation Changes by Peeved Penguin](https://discourse.cataclysmdda.org/t/mutation-changes-mod/12362)
-
-Changes and rebalances mutations.
-
-*No explicit license.*
-
 ## Soundpacks
 
 This repo includes the following soundpacks:
