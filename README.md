@@ -36,6 +36,6 @@ for licensing info.
 
 This repo includes the following tilesets:
 
-### [MSX++_Dead_People](https://github.com/chaosvolt/Cata-MSX-DeadPeopleTileset-Backup)
+### [SomeDeadGuy/UndeadPeopleTileset](https://github.com/SomeDeadGuy/UndeadPeopleTileset)
 
 *No explicit license.*
